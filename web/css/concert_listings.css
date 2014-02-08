@@ -1,0 +1,103 @@
+.concert-listing{
+  position:relative;
+  padding:10px 0;
+}
+.concert-listing h1, .concert-listing h2, .concert-listing h3{
+  margin-bottom:5px;
+}
+.concert-listing a.artist{
+  line-height: 1.2em;
+  display:block;
+  margin-left: 10px;
+}
+.concert-listing .twelve{
+  line-height: 27px;
+  padding-left: 25px;
+}
+.concert-listing:hover .actions{
+  display:block;
+}
+.concert-listing a.plus_more{
+  line-height:24px;
+}
+.concert-listing .actions{
+  width:230px;
+  height:20px;
+  position:absolute;
+  right:0;
+  bottom:5px;
+  display:none;
+}
+.concert-listing .tour_band{
+  width:72%;
+}
+
+.concert-listing .action-link{
+  background: transparent url(/img/bg-body2.png) no-repeat 0 0;
+  display:block;
+  padding-left:20px;
+  margin-right:10px;
+  line-height:20px;
+}
+.concert-listing .callink{
+  background-position:0 -632px;
+}
+.concert-listing .share_on_twitter{
+  background-position:5px -769px;
+}
+.concert-listing .share_on_facebook{
+  background-position:0 -741px;
+}
+.concert-listing .tour_band_img{
+  display:block;
+  margin:0 10px;
+}
+.concert-listing .spacer a{
+  display:block;
+}
+.concert-listing .tickets{
+  position:absolute;
+  top:5px;
+  right:5px;
+  text-indent:-10000em;
+  width:25px;
+  height:25px;
+}
+.concert-listing .tickets a, .concert-listing .tickets div{
+  background:transparent url(/img/bg-body2.png) no-repeat 0 0;
+  width:25px;
+  height:25px;
+  display:block;
+}
+.concert-listing .tickets a.enabled{
+  background-position:0 -330px !important;
+}
+.concert-listing .tickets div.disabled{
+  background-position:0 -375px !important;
+}
+.concert-listing a.p_link {
+  background-position: 0px -150px !important;
+}
+.concert-listing a.playing{
+  background-position: 0px -196px !important;
+}
+
+.concert-listing a.soundlink {
+  height: 24px;
+  display:block;
+  font-size:12px;
+  width:24px;
+  text-indent:-10000em;
+  margin:0px !important;
+  padding:0px !important;
+}
+.concert-listing .disabled-play{
+  height: 24px;
+  display:block;
+  font-size:12px;
+  width:24px;
+  text-indent:-10000em;
+  margin:0px !important;
+  padding:0px !important;
+  background-position: 0 -242px !important
+}

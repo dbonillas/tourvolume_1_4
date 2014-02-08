@@ -1,0 +1,59 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: home, action: index }
+
+search_route:
+  url:   /api/search/item
+  param: { module: api, action: complete }
+
+more_results_route:
+  url:   /api/more/results
+  param: { module: api, action: more_results }
+
+show_url_route:
+  url: /concert/:id/:artist.html
+  param: { module: concerts, action: concert_by_id }
+
+club_route:
+  url: /venue/:clubslug
+  param: { module: club, action: index }
+
+artist_route:
+  url: /artist/:id/:artistslug
+  param: { module: artist, action: index }
+
+artist_refresh:
+  url: /artist/player/:id/:key
+  param: { module: json, action: player_json }
+
+city_route:
+  url: /concerts-in/:city/:state/:cityid.html
+  param: { module: concerts, action: index }
+
+artistshow_url:
+  url: /concert/:id/:artist.html
+  param: { module: concerts, action: index }
+  
+cal_search:
+  url: /concert/calendar/:date/:city/:state.html
+  param: { module: concerts, action: calendar }
+
+twitter_url:
+  url: /twitter/:id
+  param: { module:api, action: index }
+
+facebook_url:
+  url: /facebook/:id
+  param: { module:api, action: index }
+# generic rules
+# please, remove them by adding more specific rules
+#default_index:
+#  url:   /:module
+#  param: { action: index }
+
+#default:
+#  url:   /:module/:action/*

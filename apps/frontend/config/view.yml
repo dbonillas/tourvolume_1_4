@@ -14,8 +14,7 @@ default:
 
   stylesheets:    [main,/sfJqueryReloadedPlugin/css/jquery-ui-1.8.13.custom.css, concert_listings, artist]
 
-  javascripts:    [jquery.js, jquery-ui.js, jquery.jqpageflow.js, soundmanager2-nodebug.js, AC_QuickTime.js, player.js]
+  javascripts:    [jquery.js, jquery-ui.js, jquery.jqpageflow.js, soundmanager/soundmanager2-nodebug-jsmin, player.js]
 
   has_layout:     true
   layout:         layout
-
